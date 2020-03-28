@@ -1,0 +1,18 @@
+{
+    "bp_by_age_gender": [
+        { "gender": "male", "min_age": 15, "max_age": 18, "bp": 120 },
+        { "gender": "male", "min_age": 19, "max_age": 24, "bp": 120 },
+        { "gender": "male", "min_age": 25, "max_age": 29, "bp": 121 },
+      
+        { "gender": "female", "min_age": 15, "max_age": 18, "bp": 117 },
+        { "gender": "female", "min_age": 19, "max_age": 24, "bp": 120 },
+        { "gender": "female", "min_age": 25, "max_age": 29, "bp": 120 }
+    ],
+    "bp_by_age_gender2": [
+        { "gender": "male", "age_rules": [
+            { "min_age": 15, "max_age": 18, "bp": 120 },
+            { "min_age": 19, "max_age": 24, "bp": 120 },
+            { "min_age": 25, "max_age": 29, "bp": 121 }]
+        }
+    ]    
+}
